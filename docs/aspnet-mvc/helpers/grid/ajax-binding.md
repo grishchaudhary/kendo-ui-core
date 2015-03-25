@@ -144,7 +144,7 @@ This tutorial will show how to use view models and Kendo UI Grid for ASP.NET MVC
               columns.Bound(product => product.ProductName);
               columns.Bound(product => product.UnitsInStock);
           })
-          .Pageable()
+         
           .Sortable()
     )
     ```
